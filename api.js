@@ -14,7 +14,9 @@ fetch('https://api.covid19api.com/summary')
 })
 }
 function displayResults(json){
-    // console.log("DisplayResults" , json);
+    while(section.firstChild){
+        section.removeChild(section.firstChild);
+    }
     console.log (json);
     let country = json;
 

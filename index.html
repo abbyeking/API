@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="index.css">
     <title>API Challenge</title>
 </head>
 <body>
-    <h1>COVID-19 Data Summary</h1>
-        <p>Please use the submit button to search COVID-19 data by country.</p>
+<div class= "main">
+    <h1>COVID-19 DATA SUMMARY</h1>
+        <p>Please use the submit button to see randomized COVID-19 data by country.</p>
         
     <div>
         <form>
@@ -16,6 +18,15 @@
             </p>
         </form>
     </div>
+</div>
+
+<footer>
+    <div class = "footer" id ="box">
+    <p>For more information regarding COVID-19, please visit the
+    <a href ="https://www.cdc.gov/coronavirus/2019-ncov/index.html">Centers for Disease Control and Prevention.</a></p>
+    </div>
+</footer>
+
 <section class = "searchResults"></section>
     <script type="text/javascript" src ="api.js"></script>
 </body>
